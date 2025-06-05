@@ -1,0 +1,10 @@
+# https://taskfile.dev
+
+version: '3'
+
+vars:
+
+tasks:
+  01:create kind cluster: 
+    cmds:
+      - kind create cluster
